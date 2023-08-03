@@ -43,7 +43,7 @@ interface TrackerProps {
   name: string;
   description?: string;
   /**
-   * Maximium length of the data array
+   * Maximum length of the data array
    */
   maxSize?: number;
   context?: "play" | "status-page"; // TODO: we might need to extract those two different use cases - for now it's ok I'd say.
